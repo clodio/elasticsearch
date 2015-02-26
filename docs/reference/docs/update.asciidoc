@@ -13,6 +13,8 @@ removes some network roundtrips and reduces chances of version conflicts
 between the get and the index. The `_source` field need to be enabled
 for this feature to work.
 
+*Note*: To use those examples, you need to enable the dynamic script first see <<modules-scripting,modules-scripting>>
+
 For example, lets index a simple doc:
 
 [source,js]
